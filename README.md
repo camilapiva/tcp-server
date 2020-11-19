@@ -32,6 +32,7 @@ RealTerm: Serial/TCP Terminal
 7º Passo: Clique no botão S do teclado para salvar as configurações e depois em Esc para sair da janela de configurações.
 
 8º Passo: Para fazer a build do projeto, execute o comando: idf.py flash monitor
+
 -------------
 
 
@@ -48,6 +49,7 @@ RealTerm: Serial/TCP Terminal
 5º Passo: Acesse a aba Send. 
 
 6º Passo: No primeiro Dropdown, insira uma das letras (t -> obter o valor da temperatura; u -> obter o valor da umidade; d -> para obter o valor da distância), depois clique em Send ASCII ao lado do dropdown.
+
 -------------
 **Desenvolvedores**
 * Camila Coelho

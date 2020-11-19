@@ -13,7 +13,7 @@ RealTerm: Serial/TCP Terminal
 
 
 
-Procedimentos no ESP-IDF (Espressif IoT Development Framework)
+** Procedimentos no ESP-IDF (Espressif IoT Development Framework) **
 
 1º Passo: inserir esse projeto dentro do diretório do esp-idf.
 
@@ -32,7 +32,7 @@ Procedimentos no ESP-IDF (Espressif IoT Development Framework)
 7º Passo: Para fazer a build do projeto, execute o comando: idf.py flash monitor
 
 
-Procedimentos no RealTerm: Serial/TCP Terminal
+** Procedimentos no RealTerm: Serial/TCP Terminal **
 
 1º Passo: Abra o RealTerm.
 

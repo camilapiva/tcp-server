@@ -3,7 +3,7 @@ Socket TCP Server
 =============
 Este projeto é uma aplicação desenvolvida de que disponibiliza as informações de temperatura, umidade e distância através de uma conexão socket TCP fornecida pelo ESP32. Sendo assim, se faz compreender o exemplo de socket TCP server fornecido pelo esp-idf utilizando este recurso.
 
-Requisitos 
+**Requisitos**
 
 Módulo WiFi ESP32 com Display Oled 
 
@@ -13,7 +13,7 @@ RealTerm: Serial/TCP Terminal
 
 
 
-** Procedimentos no ESP-IDF (Espressif IoT Development Framework) **
+**Procedimentos no ESP-IDF (Espressif IoT Development Framework)**
 
 1º Passo: inserir esse projeto dentro do diretório do esp-idf.
 
@@ -23,16 +23,16 @@ RealTerm: Serial/TCP Terminal
 
 4º Passo: Ao abrir a janela de configuração, navegue até o item Serial flasher config, depois acesse o item Flash size dê um Enter no teclado e escolha a opção 4 MB. Depois clique duas vezes em Esc para voltar ao menu principal. 
 
-4º Passo: navegue até o item Example configuration. Nesse item será configurado a porta de conexão do servidor. 
+5º Passo: navegue até o item Example configuration. Nesse item será configurado a porta de conexão do servidor. 
 
-5º Passo: acesse o item da configuração Example connection configuration, esse item será configurado para a conexão de WiFi. 
+6º Passo: acesse o item da configuração Example connection configuration, esse item será configurado para a conexão de WiFi. 
 
-6º Passo: Clique no botão S do teclado para salvar as configurações e depois em Esc para sair da janela de configurações.
+7º Passo: Clique no botão S do teclado para salvar as configurações e depois em Esc para sair da janela de configurações.
 
-7º Passo: Para fazer a build do projeto, execute o comando: idf.py flash monitor
+8º Passo: Para fazer a build do projeto, execute o comando: idf.py flash monitor
 
 
-** Procedimentos no RealTerm: Serial/TCP Terminal **
+**Procedimentos no RealTerm: Serial/TCP Terminal**
 
 1º Passo: Abra o RealTerm.
 

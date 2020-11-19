@@ -3,6 +3,7 @@ Socket TCP Server
 =============
 Este projeto é uma aplicação desenvolvida de que disponibiliza as informações de temperatura, umidade e distância através de uma conexão socket TCP fornecida pelo ESP32. Sendo assim, se faz compreender o exemplo de socket TCP server fornecido pelo esp-idf utilizando este recurso.
 
+
 **Requisitos**
 
 Módulo WiFi ESP32 com Display Oled 
@@ -10,6 +11,7 @@ Módulo WiFi ESP32 com Display Oled
 ESP-IDF (Espressif IoT Development Framework)
 
 RealTerm: Serial/TCP Terminal
+
 
 
 
@@ -32,6 +34,7 @@ RealTerm: Serial/TCP Terminal
 8º Passo: Para fazer a build do projeto, execute o comando: idf.py flash monitor
 
 
+
 **Procedimentos no RealTerm: Serial/TCP Terminal**
 
 1º Passo: Abra o RealTerm.
@@ -46,3 +49,6 @@ RealTerm: Serial/TCP Terminal
 
 6º Passo: No primeiro Dropdown, insira uma das letras (t -> obter o valor da temperatura; u -> obter o valor da umidade; d -> para obter o valor da distância), depois clique em Send ASCII ao lado do dropdown.
 
+**Desenvolvedores**
+* Camila Coelho
+* Gabriel Nazário

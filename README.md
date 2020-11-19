@@ -1,11 +1,11 @@
 
 Socket TCP Server
 =============
-Este projeto é uma aplicação desenvolvida de que disponibiliza as informações de temperatura, umidade e distância através de uma conexão socket TCP fornecida pelo ESP32. Sendo assim, se faz compreender o exemplo de socket TCP server fornecido pelo esp-idf utilizando este recurso.
-Requisitos 
-Módulo WiFi ESP32 com Display Oled 
-ESP-IDF (Espressif IoT Development Framework)
-RealTerm: Serial/TCP Terminal
+#Este projeto é uma aplicação desenvolvida de que disponibiliza as informações de temperatura, umidade e distância através de uma conexão socket TCP fornecida pelo ESP32. Sendo assim, se faz compreender o exemplo de socket TCP server fornecido pelo esp-idf utilizando este recurso.
+#Requisitos 
+#Módulo WiFi ESP32 com Display Oled 
+#ESP-IDF (Espressif IoT Development Framework)
+#RealTerm: Serial/TCP Terminal
 
 
 Procedimentos no ESP-IDF (Espressif IoT Development Framework)
